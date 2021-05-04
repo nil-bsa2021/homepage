@@ -1,43 +1,43 @@
 table#timeline {
-    font-size: 14px;
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-  }
-  
-  #timeline td,
-  #timeline th {
-    border: 1px solid #ddd;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  #timeline tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  
-  #timeline th {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    min-width: 50px;
-  }
-  
-  .btn {
-    height: 30px;
-    border-radius: 90px;
-    background-color: transparent;
-    margin: 5px;
-    cursor: pointer;
-  }
-  
-  .contacts.tools {
-    display: block;
-  }
-  
-  .contacts li a.youtube:hover {
-    color: red;
-  }
-  
-  .contacts li a.twitter:hover {
-    color: blue;
-  }
+  font-size: 14px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+#timeline td,
+#timeline th {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+#timeline tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#timeline th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-width: 50px;
+}
+
+.btn {
+  height: 30px;
+  border-radius: 90px;
+  background-color: transparent;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.contacts.tools {
+  display: block;
+}
+
+.contacts li a.youtube:hover {
+  color: red;
+}
+
+.contacts li a.twitter:hover {
+  color: blue;
+}
