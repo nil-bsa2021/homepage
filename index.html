@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <title>Résumé</title>
     <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
+    <link rel="stylesheet" href="/asset/stylesheets/custom.css">
+    <script defer="defer" type="application/javascript" src="/asset/scripts/filter.js"></script>
   </head>
   <body>
     <main>
@@ -72,6 +74,15 @@
             </div>
             <div class="row">
               <div class="ten wide column">
+                  <h3>Timeline</h3>
+                  <div id="FilterBtnContainer">
+                    <button class="btn active" onclick="filter('All')"> Show all</button>
+                    <button class="btn" onclick="filter('Product')"> Product</button>
+                    <button class="btn" onclick="filter('Company')"> Company</button>
+                    <button class="btn" onclick="filter('Userbase')"> Userbase</button>
+                    <button class="btn" onclick="filter('Growth')"> Growth</button>
+                    <button class="btn" onclick="filter('Censorship')"> Censorship</button>
+                </div>
                 <table id="timeline">
                   <tr>
                   <th>Year</th>
@@ -188,7 +199,7 @@
               <div class="six wide column">
                 <section>
                   <h3>Tools</h3>
-                    <ul class="contacts">
+                    <ul class="contacts tools">
                       <li>
                         <img src="https://github.githubassets.com/images/modules/site/features/launchpad/icons/icon-collaboration.svg" width="50" height="50">
                         <span>Collaborative Coding</span>
